@@ -1,6 +1,6 @@
 arr = input().split("-");
-y = arr[0];
-m = arr[1];
-d = arr[2];
+m = arr[0];
+d = arr[1];
+y = arr[2];
 
-print(y,b,d, sep=".");
+print(y,m,d, sep=".");
