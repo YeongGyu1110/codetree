@@ -1,2 +1,4 @@
 arr = input().split("-");
-print(arr, sep="")
+q = arr[0];
+w = arr[1];
+print(q,w, sep="");
