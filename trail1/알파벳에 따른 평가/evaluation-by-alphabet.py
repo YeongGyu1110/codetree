@@ -8,5 +8,7 @@ elif q == "B":
     print("Good");
 elif q == "C":
     print("Usually");
-else:
+elif q == "D":
     print("Effort");
+else:
+    print("Failure")
