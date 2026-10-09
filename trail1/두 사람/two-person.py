@@ -4,7 +4,7 @@ a_age = int(a_age);
 b_age, b_sex = input().split()
 b_age = int(b_age);
 
-if (a_age > 18 or b_age > 18) and (a_sex == "M" or b_sex == "M"):
+if (a_age > 18 and a_sex == "M") or (b_age > 18 and b_sex == "M"):
     print(1);
 else:
     print(0)
