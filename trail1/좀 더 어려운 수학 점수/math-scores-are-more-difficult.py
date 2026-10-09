@@ -1,14 +1,13 @@
-# 학생a
-q,w = map(int, input().split());
+a_math, a_english = map(int, input().split());
 # 학생b
-e,r = map(int, input().split());
+b_math, b_english = map(int, input().split());
 
-if (q>e):
+if (a_math > b_math):
     print('A');
-elif (e>q):
+elif (a_math < b_math):
     print('B');
 else:
-    if (w>r):
+    if (a_english > b_english):
         print('A');
-    elif (r<w):
+    elif (a_english < b_english):
         print('B');
